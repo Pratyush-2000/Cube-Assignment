@@ -16,10 +16,10 @@ const Hero = () => {
       },{ threshold: [0.8] });
       observer.observe(sectionRef.current);
     }, []);
-    
+
   return (
     <>
-         <button className='transition ease-in-out duration-150 flex flex-row justify-between items-center pl-3 pr-0 bg-btnBlueBlack  font-semibold rounded-2xl align-middle mb-10 hover:bg-btnHoverBlack animate-fadein  '
+         <button className='transition ease-in-out duration-150 flex flex-row justify-between items-center pl-3 pr-0 bg-btnBlueBlack  font-semibold rounded-2xl align-middle mt-10 mb-10 hover:bg-btnHoverBlack animate-fadein  '
         style={{
           animationFillMode: 'forwards',
           transform: 'translateY(-10px)',
@@ -27,7 +27,7 @@ const Hero = () => {
           border : '1px solid rgba(255, 255, 255, 0.05)',
           paddingTop : '0.25rem',
           paddingBottom : '0.35rem',
-          marginTop: '5rem'
+          marginTop: '10rem'
           
         }}
         >
