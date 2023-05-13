@@ -39,7 +39,7 @@ export default {
                   boxShadow : '0px 10px 40px rgba(80, 63, 205, 0.2)',
                   transform: 'rotateX(0deg)',
                   // background : 'conic-gradient(from 230.29deg at 51.63% 52.16%, rgb(36, 0, 255) 0deg, rgb(0, 135, 255) 67.5deg, rgb(108, 39, 157) 198.75deg, rgb(24, 38, 163) 251.25deg, rgb(54, 103, 196) 301.88deg, rgb(105, 30, 255) 360deg)',
-                  backgroundImage : 'url("src/assets/Project_Solar_Sailer.png")',
+                  backgroundImage : 'url("/Project_Solar_Sailer.png")',
                   backgroundSize:'cover'}
         },
         fadein:{
